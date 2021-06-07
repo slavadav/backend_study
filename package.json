@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --experimental-modules index.cjs",
+    "dev": "nodemon index.cjs"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/slavadav/backend_study/issues"
   },
-  "homepage": "https://github.com/slavadav/backend_study#readme"
+  "homepage": "https://github.com/slavadav/backend_study#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
