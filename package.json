@@ -1,0 +1,21 @@
+{
+  "name": "backend_study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavadav/backend_study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slavadav/backend_study/issues"
+  },
+  "homepage": "https://github.com/slavadav/backend_study#readme"
+}
