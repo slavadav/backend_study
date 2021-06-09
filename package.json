@@ -20,6 +20,7 @@
   "homepage": "https://github.com/slavadav/backend_study#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
     "mongoose": "^5.12.13"
   },
   "devDependencies": {
